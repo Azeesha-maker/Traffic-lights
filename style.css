@@ -1,0 +1,241 @@
+body{
+    background-color: aqua;
+}
+.boxUp{
+    border: 1px solid black ;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color:rgba(0, 0, 0, 0.178);
+    border-bottom: ;
+}
+
+.box1{
+
+    border: 2px solid;
+    height: 110px;
+    margin-top: 10px;
+    margin-left:15px ;
+    margin-right: 15px;
+    border-radius: 50%;
+    animation-name: red;
+    animation-duration: 5s;
+    background-color: black;
+
+
+}
+.red{
+    animation-name: redFont;
+    animation-duration: 5s;
+     margin-left: 50px;
+     font-size: 20px;
+     height: 100px;
+     color: aqua;
+     
+}
+.box2{
+
+    border: 2px solid;
+    height: 100px;
+    margin-top: 10px;
+    margin-left:15px ;
+    margin-right: 15px;
+    border-radius: 50%;
+    animation-name:yellow;
+    animation-duration: 5s;
+     animation-delay: 5s;
+    background-color: black;
+   
+
+
+}
+.yellow{
+     margin-left: 50px;
+    font-size: 20px;
+     height: 100px;
+     color: aqua;
+      animation-name: yellowFont;
+      animation-delay: 5s;
+    animation-duration: 5s;
+}
+.box3{
+
+    border: 2px solid;
+    height: 100px;
+    margin-top: 10px;
+    margin-left:15px ;
+    margin-right: 15px;
+    border-radius: 50%;
+      animation-name:green;
+    animation-duration: 5s;
+    background-color: black;
+    animation-delay: 10s;
+
+
+}
+.green{
+    margin-left: 50px;
+    font-size: 20px;
+     height: 100px;
+     color:  aqua;
+      animation-name: greenFont;
+      animation-delay: 10s;
+    animation-duration: 5s;
+}
+@keyframes red {
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: red;
+    }
+    
+}
+@keyframes yellow {
+    from{
+        background-color:black;
+    }
+    to{
+        background-color: yellow;
+    }
+    
+}
+@keyframes green {
+    from{
+        background-color:black;
+    }
+    to{
+        background-color:green;
+    }
+    
+}
+@keyframes redFont {
+    from{
+        color: aqua;
+    }
+    to{
+        color: red;
+    }
+    
+}
+@keyframes yellowFont {
+    from{
+        color: aqua;
+    }
+    to{
+        color: yellow;
+    }
+}
+@keyframes greenFont {
+    from{
+        color: aqua;
+    }
+    to{
+        color: green;
+    }
+    
+}
+.boxdown{
+  
+    border: 2px solid ;
+    border-top: none;
+    width: 80px;
+     margin-left: 156px;
+     height: 300px;
+       background-color:rgba(0, 0, 0, 0.178);
+}
+.boxBig{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.boxRight{
+    /* border: 2px solid black; */
+     width: 200px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+
+.right{
+    /* border: 2px solid; */
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+     height: 350px;
+     width: 50%;
+     display: flex;
+
+}
+.car{
+    /* border: 2px solid black; */
+    height: 110px ;
+    animation-name: placeChange;
+    margin-top: 100px;
+    animation-duration: 15s;
+    animation-timing-function: ease-in;
+
+} 
+
+
+
+.boxCar{
+    
+    border: 2px solid black;
+    height: 60px;
+    width: 200px;
+    background-color: peru;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 9px;
+}
+.tier{
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cartirel{
+
+    /* border: 2px black; */
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    margin-left: 30px;
+}
+.cartire2{
+    /* border: 2px black; */
+     border-radius: 50%;
+    height: 20px;
+     width: 20px;
+     background-color: black;
+     margin-right: 30px;
+}
+@keyframes placeChange{
+    0%{
+        
+        margin-left: 0px;
+    }
+    25%{
+        margin-top: 100px;
+        margin-left:100px;
+        animation-delay: 10s;
+
+    }
+    50%{
+        margin-top: 100px;
+        animation-delay: 5s;
+    }
+    75%{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    100%{
+        margin-top:100px;
+        margin-left: 500px;
+    }
+}
+
